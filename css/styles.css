@@ -75,12 +75,12 @@ button {
     flex-direction: row;
     align-items: center;
     height: 56px;
+    justify-content: space-between;
 }
 
 .header-nav .logo-web {
     padding-top: 18px;
     padding-bottom: 18px;
-    position: absolute;
     left: 16px;
 }
 
@@ -113,7 +113,6 @@ button {
     padding: 0;
     border: none;
     background-color: transparent;
-    position: absolute;
     cursor: pointer;
     top: 16px;
     right: 16px;
