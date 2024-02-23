@@ -144,7 +144,8 @@ button {
 }
 
 .header-menu.is-open {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     left: 0;
@@ -161,8 +162,8 @@ button {
     display: flex;
     gap: 40px;
     flex-direction: column;
-    margin-bottom: 168px;
-    margin-top: 24px;
+    margin-bottom: auto;
+    padding-top: 24px;
 }
 
 .header-nav-item {
@@ -213,12 +214,10 @@ button {
 }
 
 .header-icons-list {
-    justify-content: center;
     align-items: center;
     gap: 40px;
     display: flex;
 }
-
 
 /* Section 1. Hero */
 
@@ -958,7 +957,7 @@ button {
     .hero {
         padding: 112px 0;
         max-height: 436px;
-        max-width: 1157px;
+        max-width: 768px;
     }
     
     .hero-title {
@@ -1094,7 +1093,7 @@ button {
     .hero {
         padding: 188px 0;
         max-height: 600px;
-        max-width: 100%;
+        max-width: 1440px;
     }
     
     .hero-title {
